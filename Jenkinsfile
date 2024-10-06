@@ -3,7 +3,7 @@ pipeline {
     agent { label "agent-1" }
 
     stages {
-         stage('helloo') {
+         stage('hello') {
             steps {
                 script{
                     hello()
